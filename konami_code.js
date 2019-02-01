@@ -23,7 +23,6 @@ function init() {
    
    //Retrieve keyStroke
    const key = e.key;
-   console.log('key:', key)
    if( key === codes[ndx]) {
      ndx++;
      
