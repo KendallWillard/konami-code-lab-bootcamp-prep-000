@@ -20,6 +20,8 @@ function init() {
  document.body.addEventListener('keydown', onKeyDownHandler);
  
  function onKeyDownHandler(e) {
+   
+   //Retrieve keyStroke
    const key = e.key;
    console.log('key:', key)
    if( key === codes[ndx]) {
